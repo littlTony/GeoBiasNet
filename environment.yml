@@ -1,4 +1,4 @@
-name: geobiasnet-original-reshape
+name: geobiasnet
 channels:
   - conda-forge
 dependencies:

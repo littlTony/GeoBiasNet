@@ -32,9 +32,9 @@
     "future_input_gradient_absolute_sum": 14318.658203125,
     "bug_preserved": true
   },
-  "verified_at": "2026-10-30T20:27:09+08:00",
+  "verified_at": "2026-10-30T20:49:02+08:00",
   "regression_tests": {
-    "count": 8,
+    "count": 16,
     "status": "PASS"
   },
   "gpu_forward_backward": {
@@ -57,5 +57,20 @@
     "test_mpjpe_32j": 382.20912780761716,
     "note": "Short functionality check; not a converged experiment."
   },
-  "scope": "Original released forward retained; training entry adapted from archived five-output code; missing original 4D MLP source reconstructed."
+  "scope": "Original released forward retained; training entry adapted from archived five-output code; missing original 4D MLP source reconstructed.",
+  "data_download": {
+    "source": "https://drive.google.com/uc?id=1FbBXEQlLgD7Me6JFm_2MJbGf9T72d3u_",
+    "archive_bytes": 229252930,
+    "archive_sha256": "77fb27d6de110623cfb71727eeffaac7e2dc160199cf60e3da558b66921c0c59",
+    "subjects": 7,
+    "actions": 15,
+    "files": 210,
+    "columns": 99,
+    "reader_sample_shape": [
+      60,
+      96
+    ],
+    "matches_existing_data_sample": true,
+    "repeated_run_skips_download": true
+  }
 }
